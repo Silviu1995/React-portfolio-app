@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/silviu-constantin-995332242/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/Silviu1995"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:bacanaru.silviu@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "experiences": [
+        {
+            "title": "Intelligence officer",
+            "subtitle": "Defense",
+            "workType": "Full-time",
+            "workDescription": [
+                "Managing informations"
+            ],
+            "dateText": "08/2017 – Present"
+        },
+        {
+            "title": "Web Developer",
+            "subtitle": "My Home",
+            "workType": "Hobby",
+            "workDescription": [
+                "Practicing web development"
+            ],
+            "dateText": "10/2021 – Present"
+        },
+        {
+            "title": "Self Learner",
+            "workType": "Hobby",
+            "workDescription": [
+                "Learning on my own web development and computer scrience staff.",
+                "Puting all my energy in."
+            ],
+            "dateText": "10/2021 – Present"
+        }
+    ]
+}
