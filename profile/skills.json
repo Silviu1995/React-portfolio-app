@@ -1,0 +1,88 @@
+{
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "skills": [{
+     
+            "title": "Languages & Databases",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/postgres.png",
+                    "title": "PostgreSQL"
+                },
+                {
+                    "icon": "images/skills/typescript.png",
+                    "title": "TypeScript"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+            
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/jest.png",
+                    "title": "Jest Testing"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/redux.png",
+                    "title": "Redux"
+                },
+                {
+                    "icon": "images/skills/express.png",
+                    "title": "ExpressJs"
+                },
+                {
+                    "icon": "images/skills/bootstrap.png",
+                    "title": "Bootstrap"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/aws.svg",
+                    "title": "AWS Lambda"
+                },
+                {
+                    "icon": "images/skills/netlify.png",
+                    "title": "Netlify"
+                },
+                {
+                    "icon": "images/skills/firebase.png",
+                    "title": "Firebase"
+                }
+            ]
+    }
+]}

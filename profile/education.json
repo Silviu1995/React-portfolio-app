@@ -1,0 +1,20 @@
+{
+    "education":[
+        {
+            "title": "2022 - 2024",
+            "cardTitle": "Master degree - Advanced Programming and Database",
+            "cardSubtitle":"1 December 1918 University, Alba-Iulia, Romania"
+        },
+        
+        {
+            "title": "2019-2021",
+            "cardTitle": "Master degree - Organizationl Leadership",
+            "cardSubtitle":"Landforces Military Academy, Sibiu, Romania"
+        },
+        {
+            "title": "2014-2017",
+            "cardTitle": "Bachelor degree - Organizational Management",
+            "cardSubtitle":"Landforces Military Academy, Sibiu, Romania"
+        }
+    ]
+}
