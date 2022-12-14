@@ -106,7 +106,7 @@ section.timeline-card-content div.card-description > p {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 742px) and (max-width: 992px) {
 
   .navbar__link {
     margin-left: 0.4em;

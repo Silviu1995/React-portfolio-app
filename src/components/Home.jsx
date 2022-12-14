@@ -8,7 +8,7 @@ import './prof-pic.css';
 
 const styles = {
   nameStyle: {
-    fontSize: '5em',
+    fontSize: '4em',
   },
   inlineChild: {
     display: 'inline-block',
