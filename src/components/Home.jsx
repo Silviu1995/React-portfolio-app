@@ -12,6 +12,7 @@ const styles = {
   },
   inlineChild: {
     display: 'inline-block',
+    fontSize: '1.7em',
   },
   mainContainer: {
     height: '100%',
