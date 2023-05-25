@@ -1,6 +1,29 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/proj_master.png",
+            "title": "E-Commerce-React-App",
+            "bodyText": "- E-Commerce project made with React and Strapi cms\n - Responsive, dynamic and interactive\n - In progress",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Silviu1995/Bacanation-store"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://bacanation-store.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Strapi",
+                "Redux-toolkit",
+                "SASS",
+                "Stripe",
+                "JWT-authentication"
+            ]
+        },
+        {
             "image" : "images/projects/proj1-poster.png",
             "title": "E-Commerce-React-App",
             "bodyText": "- E-Shop project made in React\n -  Fully functional, secured and dynamic.\n - In continous deployment",
