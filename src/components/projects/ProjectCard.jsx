@@ -1,6 +1,9 @@
 import React, { useContext } from 'react';
 import {
-  Button, Card, Badge, Col,
+  Button,
+  Card,
+  Badge,
+  Col,
 } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
@@ -13,6 +16,7 @@ const styles = {
     paddingTop: 5,
     paddingBottom: 5,
     margin: 5,
+    backgroundcolor: 'black',
   },
   cardStyle: {
     borderRadius: 10,
@@ -29,12 +33,17 @@ const styles = {
     padding: 10,
   },
   buttonStyle: {
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 5,
+    paddingBottom: 5,
     margin: 5,
+    border: '1px solid black',
   },
 };
 
 const ProjectCard = (props) => {
-  const theme = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
   const parseBodyText = (text) => <ReactMarkdown children={text} />;
 
   const { project } = props;
@@ -44,10 +53,10 @@ const ProjectCard = (props) => {
       <Card
         style={{
           ...styles.cardStyle,
-          backgroundColor: theme.cardBackground,
-          borderColor: theme.cardBorderColor,
+          backgroundColor: theme?.cardBackground,
+          borderColor: theme?.cardBorderColor,
         }}
-        text={theme.bsSecondaryVariant}
+        text={theme?.bsSecondaryVariant}
       >
         <Card.Img variant="top" src={project?.image} />
         <Card.Body>
@@ -62,21 +71,21 @@ const ProjectCard = (props) => {
             <Button
               key={link.href}
               style={styles.buttonStyle}
-              variant={'outline-' + theme.bsSecondaryVariant}
+              variant={'outline-' + theme?.bsSecondaryVariant}
               onClick={() => window.open(link.href, '_blank')}
             >
               {link.text}
             </Button>
           ))}
         </Card.Body>
-        {project.tags && (
-          <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
+        {project?.tags && (
+          <Card.Footer style={{ backgroundColor: theme?.cardFooterBackground }}>
             {project.tags.map((tag) => (
               <Badge
                 key={tag}
                 pill
-                bg={theme.bsSecondaryVariant}
-                text={theme.bsPrimaryVariant}
+                bg={theme?.bsSecondaryVariant}
+                text={theme?.bsPrimaryVariant}
                 style={styles.badgeStyle}
               >
                 {tag}

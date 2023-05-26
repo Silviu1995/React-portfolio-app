@@ -12,7 +12,7 @@ const styles = {
 };
 
 function Social() {
-  const theme = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -26,17 +26,19 @@ function Social() {
 
   return (
     <div className="social">
-      {data ? data.social.map((social) => (
-        <SocialIcon
-          key={social.network}
-          style={styles.iconStyle}
-          url={social.href}
-          network={social.network}
-          bgColor={theme.socialIconBgColor}
-          target="_blank"
-          rel="noopener"
-        />
-      )) : null}
+      {data && data.social ? (
+        data.social.map((social) => (
+          <SocialIcon
+            key={social.network}
+            style={styles.iconStyle}
+            url={social.href}
+            network={social.network}
+            bgColor={theme?.socialIconBgColor}
+            target="_blank"
+            rel="noopener"
+          />
+        ))
+      ) : null}
     </div>
   );
 }

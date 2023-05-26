@@ -4,7 +4,6 @@ import { withRouter } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
-import ThemeToggler from './ThemeToggler';
 
 const styles = {
   logoStyle: {
@@ -39,7 +38,7 @@ const InternalNavLink = styled(NavLink)`
 const NavBar = () => {
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
 
   useEffect(() => {
     fetch(endpoints.navbar, {
@@ -108,9 +107,6 @@ const NavBar = () => {
                 </InternalNavLink>
               )))}
           </Nav>
-          <ThemeToggler
-            onClick={() => setExpanded(false)}
-          />
         </Navbar.Collapse>
       </Container>
     </Navbar>

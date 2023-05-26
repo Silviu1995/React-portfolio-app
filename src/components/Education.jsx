@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { Chrono } from 'react-chrono';
 import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
+import Fade from 'react-reveal/Fade';
 import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import Header from './Header';
@@ -21,8 +21,7 @@ function Education(props) {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
+      .then((res) => setData(res));
 
     if (window?.innerWidth < 576) {
       setMode('VERTICAL');
@@ -54,11 +53,11 @@ function Education(props) {
                 cardHeight={250}
                 mode={mode}
                 theme={{
-                  primary: theme.accentColor,
-                  secondary: theme.accentColor,
-                  cardBgColor: theme.chronoTheme.cardBgColor,
-                  cardForeColor: theme.chronoTheme.cardForeColor,
-                  titleColor: theme.chronoTheme.titleColor,
+                  primary: theme?.accentColor,
+                  secondary: theme?.accentColor,
+                  cardBgColor: theme?.chronoTheme?.cardBgColor,
+                  cardForeColor: theme?.chronoTheme?.cardForeColor,
+                  titleColor: theme?.chronoTheme?.titleColor,
                 }}
               >
                 <div className="chrono-icons">
@@ -74,7 +73,7 @@ function Education(props) {
             </Container>
           </div>
         </Fade>
-      ) : <FallbackSpinner /> }
+      ) : <FallbackSpinner />}
     </>
   );
 }

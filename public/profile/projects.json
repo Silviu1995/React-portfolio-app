@@ -47,6 +47,23 @@
             ]
         },
         {
+            "image" : "images/projects/bacamedia.png",
+            "title": "Social media app",
+            "bodyText": "- Social media app made in React\n -  Partially functional and dynamic.\n - In development",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Silviu1995/social-media"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Node",
+                "Context-API",
+                "MongoDB"
+            ]
+        },
+        {
             "image" : "images/projects/proj2-poster.png",
             "title": "Bacanation-spell",
             "bodyText": "- A cool face full-stack recognition app made with React and Node.\n - Added User authentication .\n - Deployed on **Heroku** .",
