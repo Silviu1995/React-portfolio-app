@@ -38,7 +38,7 @@ const InternalNavLink = styled(NavLink)`
 const NavBar = () => {
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
-  const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
     fetch(endpoints.navbar, {
