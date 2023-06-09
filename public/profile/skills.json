@@ -39,6 +39,10 @@
                     "title": "React"
                 },
                 {
+                    "icon": "images/skills/angular.png",
+                    "title": "Angular"
+                },
+                {
                     "icon": "images/skills/jest.png",
                     "title": "Jest Testing"
                 },
@@ -57,6 +61,22 @@
                 {
                     "icon": "images/skills/bootstrap.png",
                     "title": "Bootstrap"
+                },
+                {
+                    "icon": "images/skills/rxjslogo.png",
+                    "title": "RxJS"
+                },
+                {
+                    "icon": "images/skills/matplot.png",
+                    "title": "Matplotlib"
+                },
+                {
+                    "icon": "images/skills/sklearn.png",
+                    "title": "Scikit learn"
+                },
+                {
+                    "icon": "images/skills/opencv.png",
+                    "title": "OpenCV"
                 }
             ]
         },
@@ -83,6 +103,7 @@
                     "icon": "images/skills/firebase.png",
                     "title": "Firebase"
                 }
+               
             ]
     }
 ]}
