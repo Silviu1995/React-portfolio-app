@@ -22,8 +22,16 @@
                     "title": "Python"
                 },
                 {
+                    "icon": "images/skills/rust.png",
+                    "title": "Rust"
+                },
+                {
                     "icon": "images/skills/postgres.png",
-                    "title": "PostgreSQL"
+                    "title": "PostgreSQL" 
+                },
+                {
+                    "icon": "images/skills/mongo.png",
+                    "title": "MongoDB"
                 },
                 {
                     "icon": "images/skills/typescript.png",
@@ -47,7 +55,7 @@
                     "title": "Jest Testing"
                 },
                 {
-                    "icon": "images/skills/nodejs.png",
+                    "icon": "images/skills/node.png",
                     "title": "Nodejs"
                 },
                 {
@@ -59,24 +67,20 @@
                     "title": "ExpressJs"
                 },
                 {
+                    "icon": "images/skills/nestjs.png",
+                    "title": "Nest JS"
+                },
+                {
                     "icon": "images/skills/bootstrap.png",
                     "title": "Bootstrap"
                 },
                 {
-                    "icon": "images/skills/rxjslogo.png",
+                    "icon": "images/skills/tailwind.png",
+                    "title": "Tailwind CSS"
+                },
+                { 
+                    "icon": "images/skills/rxjs.png",
                     "title": "RxJS"
-                },
-                {
-                    "icon": "images/skills/matplot.png",
-                    "title": "Matplotlib"
-                },
-                {
-                    "icon": "images/skills/sklearn.png",
-                    "title": "Scikit learn"
-                },
-                {
-                    "icon": "images/skills/opencv.png",
-                    "title": "OpenCV"
                 }
             ]
         },

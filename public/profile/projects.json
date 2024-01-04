@@ -31,11 +31,11 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/Silviu1995/Clipzzz"
+                    "href": "https://github.com/Silviu1995/Clipz"
                 },
                 {
                     "text": "Live",
-                    "href": "https://clips-silviu1995.vercel.app/"
+                    "href": "https://clipz-gules.vercel.app/"
                 }
             ],
             
@@ -107,59 +107,6 @@
                 "PostgreSQL",
                 "Express",
                 "Heroku"
-            ]
-        },
-        {
-            "image" : "images/projects/proj3-poster.png",
-            "title": "Kittynation",
-            "bodyText": "- A cute kitty aplication made with **React**.\n - I used **Class Components** .\n - Added a search box functionality.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/Silviu1995/Kittynation"
-                }
-                ,
-                {
-                    "text": "Live",
-                    "href": "https://silviu1995.github.io/Kittynation/"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Git-hub"
-            ]
-        },
-        {
-            "image" : "images/projects/proj4-poster.png",
-            "title": "Alienation",
-            "bodyText": "- Similar to kittynation aplication made with **React**.\n - I used **Functional Components** with **Hooks** .\n - Added a search box functionality.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/Silviu1995/alienation"
-                } ,
-                {
-                    "text": "Live",
-                    "href": "https://silviu1995.github.io/alienation/"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Git-hub"
-            ]
-        },
-        {
-            "title": "React-landing-page",
-            "bodyText": "- An react app made with  **Hooks** and **Styled Components**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/Silviu1995/React-landing-page"
-                }
-            ],
-            "tags" : [
-                "React",
-                "UI-Chackra"
             ]
         }
     ]

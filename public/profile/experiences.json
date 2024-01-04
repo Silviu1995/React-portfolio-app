@@ -1,31 +1,35 @@
 {
     "experiences": [
         {
+            "title": "Angular developer - Internship",
+            "subtitle": "Striby",
+            "workType": "Remote",
+            "workDescription": [
+                "Working in a scrum team to develop a project management application.",
+                "Developing the front-end of the application using Angular, Apollo GraphQL and Tailwind CSS."
+            ],
+            "dateText": "10/2023 – Present"
+        },
+        {
             "title": "Intelligence officer",
             "subtitle": "Defense",
             "workType": "Full-time",
             "workDescription": [
-                "Managing informations"
+                "Managing informations",
+                "Analyzing critical infrastructure",
+                "Integrating and analysing data from multiple sources"
             ],
             "dateText": "08/2017 – Present"
         },
         {
-            "title": "Web Developer",
-            "subtitle": "My Home",
-            "workType": "Hobby",
+            "title": "Fullstack developer",
+            "subtitle": "Volunteer",
+            "workType": "Remote",
             "workDescription": [
-                "Practicing web development"
+                "Working in a team of 4 people to develop a web application for managing the restaurant of the university.",
+                "Developing the front-end of the application using Angular and back-end using NestJS and MongoDB."
             ],
-            "dateText": "10/2021 – Present"
-        },
-        {
-            "title": "Self Learner",
-            "workType": "Hobby",
-            "workDescription": [
-                "Learning on my own web development and computer scrience staff.",
-                "Puting all my energy in."
-            ],
-            "dateText": "10/2021 – Present"
+            "dateText": "08/2023 – Present"
         }
     ]
 }
